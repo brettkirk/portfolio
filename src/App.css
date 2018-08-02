@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  background-image: url("/images/keyboardTiles.png");
+  background-size: 100%;
+  background-position: 0px -150px;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-header-overlay {
+  background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1));
+  height: 90px;
+  width: 100%;
+  position: absolute;
+  top: 100px;
+  z-index: 1;
+}
+
+.App-title {
+  font-size: 2em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.profile-image {
+  margin-top:-77px;
+  width: 150px;
+  border: solid;
+  border-radius: 50%;
+  border-width: 4px;
+  border-color: white;
+  position: relative;
+  z-index: 2;
+}
+
+.social-icon {
+  min-width: 20px;
+  width: 12%;
+  float: left;
+  padding: 10px;
+  max-width: 40px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.center-content {
+  justify-content: space-around;
+}
+
+.sub-container {
+  flex-grow: 1;
+  align-self: flex-start;
+  width: 100px;
+}
+
+.title {
+  text-align: left;
+  font-size: 1.5em;
+}
+
+.paragraph {
+  padding-top: 10px;
+  text-align: left;
+  font-size: 1em;
+}
+
+.content-box {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  background-color: rgba(150,150,150,0.5);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.project-image {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 250px;
+  position: relative;
+  right: 5px;
+  bottom: 5px;
+}
+
+.project-tagline {
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  background-color: white;
+  padding: 5px;
+  text-align: left;
+  width: 240px;
+  position: relative;
+  top: -4px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
